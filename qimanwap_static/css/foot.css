@@ -1,0 +1,81 @@
+#footBar {
+    width: 100%;
+    height: 1.33333rem;
+    font-size: 22px;
+    color: #999;
+    border-top: 1px solid #ebebeb;
+    position: fixed;
+    bottom: -1px;
+    background: #fff;
+    z-index: 999;
+    line-height: 1.6
+}
+
+#footBar li a{
+    font-size: .3rem;
+    color: #999
+}
+
+#footBar li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: .21333rem
+}
+
+#footBar i {
+    display: inline-block;
+    width: .64rem;
+    height: .64rem
+}
+
+.i-tab-home {
+    background: url("../images/ic_tab_home_no.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.i-tab-class {
+    background: url("../images/ic_tab_class_no.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.i-tab-book {
+    background: url("../images/ic_tab_book_no.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.i-tab-me {
+    background: url("../images/ic_tab_me_no.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.z-active .i-tab-home {
+    background: url("../images/ic_tab_home_hl.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.z-active .i-tab-class {
+    background: url("../images/ic_tab_class_hl.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.z-active .i-tab-book {
+    background: url("../images/ic_tab_book_hl.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.z-active .i-tab-me {
+    background: url("../images/ic_tab_me_hl.png") no-repeat center center;
+    background-size: .58667rem .58667rem
+}
+
+.i-comic-new {
+    background: url("../images/ic_collectlist_new.png") no-repeat center center;
+    background-size: contain
+}
+
+.i-comic-new2 {
+    background: url("../images/ic_historylist_new.png") no-repeat center center;
+    background-size: contain
+}
+
